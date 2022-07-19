@@ -1,0 +1,47 @@
+.chip {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: .25rem .5rem;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 0.5rem;
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 0.5rem;
+    &.chip__user-fantasy-nav {
+        border-radius: 0rem;
+        width: 100%;
+        justify-content: space-between;
+        .chip__content {
+            padding-left: 0.5rem;
+        }
+    }
+    &.chip__user-fantasy-nav-desktop {
+        .chip__content {
+            padding-left: 0.25rem;
+        }
+    }
+    img {
+        border-radius: 100%;
+        width: 42px;
+        height: 42px;
+        object-fit: cover;
+        background: #e2e1e0;
+      }
+      .chip__content {
+          display: flex;
+          flex: 1;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          font-size: 0.75rem;
+          font-weight: bold;
+          margin: 2px 6px;
+      }
+      .btn {
+        width: 20px;
+        height: 20px;
+        color: #fff;
+      }
+}

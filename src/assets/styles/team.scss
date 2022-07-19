@@ -1,0 +1,20 @@
+.user-fantasy__desktop {
+    display: none;
+    margin-top: 6px;
+    padding: 0rem 2rem;
+}
+
+.user-fantasy-banner {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    top: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    .user-fantasy-banner__card {
+        padding: 1rem;
+        h1 {font-size: 1rem;}
+        h2 {font-size: 0.75rem;}
+    }
+}
